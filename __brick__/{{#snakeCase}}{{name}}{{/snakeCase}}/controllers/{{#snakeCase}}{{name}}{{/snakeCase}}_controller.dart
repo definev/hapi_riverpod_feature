@@ -1,7 +1,7 @@
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'states/{{#pascalCase}}{{name}}{{/pascalCase}}_state.dart';
+import 'states/{{#snakeCase}}{{name}}{{/snakeCase}}_state.dart';
 
-export 'states/{{#pascalCase}}{{name}}{{/pascalCase}}_state.dart';
+export 'states/{{#snakeCase}}{{name}}{{/snakeCase}}_state.dart';
 
 final {{#camelCase}}{{name}}{{/camelCase}}ControllerProvider = StateNotifierProvider<{{#pascalCase}}{{name}}{{/pascalCase}}Controller, {{#pascalCase}}{{name}}{{/pascalCase}}State>((ref) {
   return {{#pascalCase}}{{name}}{{/pascalCase}}Controller();
