@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 
-class {{#pascalCase}}{{name}}{{/pascalCase}}Screen extends StatelessWidget {
-  const {{#pascalCase}}{{name}}{{/pascalCase}}Screen({ Key? key }) : super(key: key);
-
+class {{#pascalCase}}{{name}}{{/pascalCase}}View extends StatelessWidget {
+  const {{#pascalCase}}{{name}}{{/pascalCase}}View({super.key});
+  
   static const String routeName = '{{routeName}}';
 
   @override
